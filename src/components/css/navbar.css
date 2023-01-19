@@ -1,0 +1,55 @@
+.navbar{
+    background-color: #047BD5 !important;
+}
+.title{
+    margin-left: 200px;
+    color: white;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -15px;
+}
+.me-2{
+    width: 500px;
+    border-radius: 0px;
+}
+.search{
+    background-color: white;
+    border-radius: 0;
+    margin-left: -10px;
+    color:#047BD5;
+    height: 38px;
+}
+.login{
+    background-color: white;
+    color: #047BD5;
+    font-weight: 600;
+    border-radius: 0;
+    margin-left: 45px;
+    height: 30px;
+    margin-top: 5px;
+    width: 120px;
+    text-align: center;
+    padding: 5px;
+}
+
+.seller ,.more , .cart{
+    color: white !important;
+    font-weight: 700;
+    margin-left: 40px;
+}
+.explore{
+    position: absolute;
+    color: white !important;
+    text-decoration: none;
+    left: 220px;
+    top: 30px;
+    font-size: 12px;
+}
+.cart{
+    margin-right: 10px;
+    margin-left: 15px;
+}
+.login:hover{
+    color:#047BD5  !important;
+    background-color: white !important;
+}
