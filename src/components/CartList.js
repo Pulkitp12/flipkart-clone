@@ -9,7 +9,7 @@ function CartList(props) {
         props.productList.map((product,i)=>{
             return(
                         <div className="container mt-3" style={product.quantity===0?{display:"none"}:{display:"block"}}>
-                        <div className='d-flex justify-content-around py-2' style={{border: "2px solid black"}}>
+                        <div className='d-flex justify-content-around py-2' style={{border: "2px solid black"}} key={i}>
                                 <h2>
                                     {product.name}
                                 </h2>
