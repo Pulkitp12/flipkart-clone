@@ -1,5 +1,5 @@
 .navbar{
-    background-color: #047BD5 !important;
+    background-color: #2588d4 !important;
 }
 .title{
     margin-left: 200px;
@@ -21,15 +21,15 @@
 }
 .login{
     background-color: white;
-    color: #047BD5;
+    color: #229bf7;
     font-weight: 600;
     border-radius: 0;
     margin-left: 45px;
-    height: 30px;
     margin-top: 5px;
     width: 120px;
     text-align: center;
-    padding: 5px;
+    height: 30px;
+    font-size: 12px;
 }
 
 .seller ,.more , .cart{

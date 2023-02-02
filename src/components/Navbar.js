@@ -8,7 +8,7 @@ function Navbar() {
          <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
                 <Link className="navbar-brand title" to="/"><i>Flipkart</i></Link>
-                <a className='explore' href='/'><i>Explore <span style={{color:"yellow"}}>Plus</span></i></a>
+                <Link className='explore' to='/'><i>Explore <span style={{color:"yellow"}}>Plus</span></i></Link>
                 <form className="d-flex" role="search">
                     <input className="form-control me-2" type="search" placeholder="Search for products, brand and more" aria-label="Search"/>
                     <button className="btn search" type="submit"><i className="fa fa-x fa-search"></i></button>
