@@ -5,7 +5,7 @@ function Product(props) {
   
   return (
     <div className='my-3 mx-2'>
-      <div className="card mb-3 py-3 px-3">
+      <div className="card mb-3 py-3 px-3" id={props.product.id}>
        <div className='row g-0'>
         <div className='col-md-2'>
         <img src={props.product.image} className="card-img-top" height={200} alt="..."/>

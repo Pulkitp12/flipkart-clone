@@ -15,6 +15,7 @@ const App=()=> {
   
   const products =[
     { 
+      id:"phone",
     price: 120000,
     name: "Iphone",
     quantity: 0,
@@ -22,6 +23,7 @@ const App=()=> {
     description: ["iPhone 13. boasts an advanced dual-camera system that allows you to click mesmerising pictures with immaculate clarity.","The lightning-fast A15 Bionic chip allows for seamless multitasking, elevating your performance to a new dimension." ,"A big leap in battery life, a durable design, and a bright Super Retina XDR display facilitate boosting your user experience."]
     },
     { 
+      id:"lap",
     price: 35000,
     name: "Lenovo Laptop",
     quantity: 0,
@@ -30,6 +32,7 @@ const App=()=> {
     },
 
     { 
+      id:"clo",
       price: 1500,
       name: "Clothes",
       quantity: 0,
@@ -37,20 +40,21 @@ const App=()=> {
       description: ["Special occasions call for a special wardrobe. Explore a wide range of lehengas in the ethnic clothing collection.", "Investing in these lovely and lightweight ethnic dresses can help you enhance your fashion appeal. You can quickly get ready for any occasion with the help of this piece of pre-designed clothing with a majestic appearance." ,"Ethnic clothing comes in a variety of designs and styles and can be a terrific choice to dress up for any event."]
       },
       { 
+        id:"wash",
       price: 30000,
       name: "Washing Machine",
       quantity: 0,
       image: "https://images.samsung.com/is/image/samsung/p6pim/in/ww70t4020cx-tl/gallery/in-front-loading-washer-ww70t4020cheo-ww70t4020cx-tl-383435730?$1300_1038_PNG$",
       description: ["With features that ensure a great wash every time, this IFB Front Load Washing Machine lets you relax while enjoying a fantastic washing session." ,"IFB's Front Load Washing Machine keeps track of all your laundry needs, from Aqua Energie, a filtration procedure for hard water, to up to 2x Power Dual Steam for a sanitary wash and power cleaning.", "Additionally, other features like Active Color Protection, Auto Tub Clean, Laundry Add, and Time Saver improve your entire washing experience while saving water, power, detergent, and time."]
       },
-      { 
+      { id:"sofa",
         price: 60000,
         name: "L-Shaped Sofa",
         quantity: 0,
         image: "https://cdn2.vectorstock.com/i/1000x1000/41/01/sofa-bed-with-isolated-white-background-vector-27214101.jpg",
         description: ["Bharat Lifestyle brings to you modern and comfortable sofa set for your living room.Bharat Lifestyle Nano Black Grey Soft Touch Fabric 2+1+D Sofa Set is made of Acacia wood." ,"It has an elegant design which enhances the interior decor of your living room. Designed in such a way, the sofa is comfortable to sit.", "The best part it, it comes with good price without compromising on quality. Buy this sofa today!"]
         },
-        { 
+        { id:"veggi",
         price: 100,
         name: "Veggies",
         quantity: 0,

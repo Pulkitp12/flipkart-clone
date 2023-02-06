@@ -11,25 +11,26 @@ function Navbar() {
                 <Link className='explore' to='/'><i>Explore <span style={{color:"yellow"}}>Plus</span></i></Link>
                 <form className="d-flex" role="search">
                     <input className="form-control me-2" type="search" placeholder="Search for products, brand and more" aria-label="Search"/>
-                    <button className="btn search" type="submit"><i className="fa fa-x fa-search"></i></button>
+                    <button className="btn search"><i className="fa fa-x fa-search"></i></button>
                 </form>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                    <a className="btn login" aria-current="page" href="/">LOGIN</a>
+                    <a className="btn login" aria-current="page" href="#phone">LOGIN</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link seller" href="/">Become a Seller</a>
+                    <a className="nav-link seller disabled" href="/">Become a Seller</a>
                     </li>
                     <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle more" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         More
                     </a>
                     <ul className="dropdown-menu">
-                        <li><a className="dropdown-item" href="/">Action</a></li>
-                        <li><a className="dropdown-item" href="/">Another action</a></li>
+                        <li><a className="dropdown-item disabled" href="/">Notification Preference</a></li>
+                        <li><a className="dropdown-item disabled" href="/">24 X 7 Customer service</a></li>
+                        <li><a className="dropdown-item disabled" href="/">Advertise</a></li>
                         <li><hr className="dropdown-divider"/></li>
-                        <li><a className="dropdown-item" href="/">Something else here</a></li>
+                        <li><a className="dropdown-item disabled" href="/">Download App</a></li>
                     </ul>
                     </li>
                     <li className="nav-item">

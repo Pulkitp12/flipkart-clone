@@ -3,8 +3,7 @@
     padding-top: 30px;
     margin-top: -20px;
 }
-.category img{
-    border: 1px dashed red;
-    border-radius: 20%;
-    padding: 5px;
+.category a{
+    text-decoration: none;
+    color: black;
 }

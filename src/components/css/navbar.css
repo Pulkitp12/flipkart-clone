@@ -1,5 +1,5 @@
 .navbar{
-    background-color: #2588d4 !important;
+    background-color: #1b8ce2 !important;
 }
 .title{
     margin-left: 200px;
@@ -8,8 +8,12 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: -15px;
 }
+.title:hover{
+    color: white;
+}
 .me-2{
     width: 500px;
+    height: 37px;
     border-radius: 0px;
 }
 .search{
@@ -17,19 +21,22 @@
     border-radius: 0;
     margin-left: -10px;
     color:#047BD5;
-    height: 38px;
+    height: 37px;
+}
+.search:hover{
+    background-color: white;
 }
 .login{
     background-color: white;
     color: #229bf7;
-    font-weight: 600;
+    font-weight: 700;
     border-radius: 0;
     margin-left: 45px;
     margin-top: 5px;
     width: 120px;
     text-align: center;
     height: 30px;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .seller ,.more , .cart{
